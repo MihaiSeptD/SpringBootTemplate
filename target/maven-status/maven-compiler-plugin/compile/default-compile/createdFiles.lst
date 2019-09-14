@@ -1,0 +1,8 @@
+template/store/AppStoreRelationships.class
+module-info.class
+template/store/config/ConfigApp.class
+template/store/controller/PersonRepository.class
+template/store/models/Relationship.class
+template/store/controller/EntryController.class
+template/store/controller/TemplateErrorController.class
+template/store/models/Person.class

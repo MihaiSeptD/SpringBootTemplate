@@ -1,0 +1,5 @@
+[INFO ] 2019-08-17 01:59:59.274 [main] AppStoreRelationships - start application for CRUD store
+[INFO ] 2019-08-17 02:00:00.530 [main] AppStoreRelationships - Starting AppStoreRelationships on mi-hp-tk with PID 15841 (/home/mitaskq/workspaceHeroku/TemplateCRUD/target/classes started by mitaskq in /home/mitaskq/workspaceHeroku/TemplateCRUD)
+[INFO ] 2019-08-17 02:00:00.533 [main] AppStoreRelationships - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-17 02:00:07.527 [main] AppStoreRelationships - Started AppStoreRelationships in 8.1 seconds (JVM running for 19.166)
+[INFO ] 2019-08-17 02:01:35.129 [http-nio-8089-exec-1] EntryController - Doing a test request

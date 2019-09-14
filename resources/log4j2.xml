@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<Configuration package="template.store"  status="WARN">
+    <Appenders>
+        <RollingFile name="fileLogger" fileName="logs/nosql-crud.log" filePattern="logs/nosql-crud-%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+            </Policies>
+        </RollingFile>
+ 
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout   pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
+        </Console>
+    </Appenders>
+    
+    <Loggers>
+        <Logger name="template.store" level="debug" additivity="true">
+            <appender-ref ref="fileLogger" level="info" />
+        </Logger>
+        <Root level="debug" additivity="false">
+            <appender-ref ref="console" />
+        </Root>
+    </Loggers>
+</Configuration>

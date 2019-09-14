@@ -1,0 +1,31 @@
+[INFO ] 2019-09-01 00:00:07.014 [main] AppStoreRelationships - Started AppStoreRelationships in 11.906 seconds (JVM running for 24.076)
+[INFO ] 2019-09-01 00:00:11.986 [http-nio-8089-exec-1] TemplateErrorController - Here we have an error N/A with code 400
+[INFO ] 2019-09-01 00:01:14.916 [main] AppStoreRelationships - start application for CRUD store
+[INFO ] 2019-09-01 00:01:16.630 [main] AppStoreRelationships - Starting AppStoreRelationships on mi-hp-tk with PID 8902 (/home/mitaskq/workspaceHeroku/TemplateCRUD/target/classes started by mitaskq in /home/mitaskq/workspaceHeroku/TemplateCRUD)
+[INFO ] 2019-09-01 00:01:16.639 [main] AppStoreRelationships - No active profile set, falling back to default profiles: default
+[INFO ] 2019-09-01 00:01:26.836 [main] AppStoreRelationships - Started AppStoreRelationships in 11.748 seconds (JVM running for 24.08)
+[INFO ] 2019-09-01 00:01:31.084 [http-nio-8089-exec-1] TemplateErrorController - Here we have an error N/A with code 400
+[INFO ] 2019-09-01 00:01:36.203 [http-nio-8089-exec-2] TemplateErrorController - Here we have an error N/A with code 404
+[INFO ] 2019-09-01 00:01:51.001 [http-nio-8089-exec-3] TemplateErrorController - Here we have an error N/A with code 404
+[INFO ] 2019-09-01 00:01:52.512 [http-nio-8089-exec-5] TemplateErrorController - Here we have an error N/A with code 404
+[INFO ] 2019-09-01 00:01:54.142 [http-nio-8089-exec-6] TemplateErrorController - Here we have an error N/A with code 404
+[INFO ] 2019-09-01 00:01:56.178 [http-nio-8089-exec-7] TemplateErrorController - Here we have an error N/A with code 404
+[INFO ] 2019-09-01 00:01:58.363 [http-nio-8089-exec-8] TemplateErrorController - Here we have an error N/A with code 404
+[ERROR] 2019-09-01 00:02:27.885 [http-nio-8089-exec-9] EntryController - Person with id -100 not exists
+[INFO ] 2019-09-01 00:02:33.310 [http-nio-8089-exec-4] EntryController - Get all persons registered
+[INFO ] 2019-09-01 00:02:33.608 [http-nio-8089-exec-4] EntryController - [Person [id=23, name=John, data=null, relationship=[]], Person [id=24, name=Linda, data=null, relationship=[]]]
+[INFO ] 2019-09-01 00:03:04.533 [http-nio-8089-exec-10] EntryController - Try to add a new record
+[INFO ] 2019-09-01 00:03:04.667 [http-nio-8089-exec-10] EntryController - Person value fields : Person [id=null, name=Lora, data=null, relationship=[]]
+[INFO ] 2019-09-01 00:03:05.078 [http-nio-8089-exec-10] EntryController - Save person with name Person [id=26, name=Lora, data=null, relationship=[]]
+[INFO ] 2019-09-01 00:03:23.960 [http-nio-8089-exec-1] EntryController - Try to add a new record
+[INFO ] 2019-09-01 00:03:23.963 [http-nio-8089-exec-1] EntryController - Person value fields : Person [id=null, name=Diana, data=null, relationship=[]]
+[INFO ] 2019-09-01 00:03:24.081 [http-nio-8089-exec-1] EntryController - Save person with name Person [id=27, name=Diana, data=null, relationship=[]]
+[INFO ] 2019-09-01 00:03:26.719 [http-nio-8089-exec-2] EntryController - Get all persons registered
+[INFO ] 2019-09-01 00:03:26.904 [http-nio-8089-exec-2] EntryController - [Person [id=23, name=John, data=null, relationship=[]], Person [id=24, name=Linda, data=null, relationship=[]], Person [id=26, name=Lora, data=null, relationship=[]], Person [id=27, name=Diana, data=null, relationship=[]]]
+[INFO ] 2019-09-01 00:06:17.455 [http-nio-8089-exec-5] EntryController - Save person with name Person [id=23, name=John, data=null, relationship=[Diana, null]]
+[INFO ] 2019-09-01 00:06:23.596 [http-nio-8089-exec-6] EntryController - Get all persons registered
+[INFO ] 2019-09-01 00:06:23.706 [http-nio-8089-exec-6] EntryController - [Person [id=23, name=John, data=null, relationship=[Diana, null]], Person [id=27, name=Diana, data=null, relationship=[John, null]], Person [id=24, name=Linda, data=null, relationship=[]], Person [id=26, name=Lora, data=null, relationship=[]]]
+[INFO ] 2019-09-01 16:45:20.332 [main] AppStoreRelationships - start application for CRUD store
+[INFO ] 2019-09-01 16:45:21.798 [main] AppStoreRelationships - Starting AppStoreRelationships on mi-hp-tk with PID 4778 (/home/mitaskq/workspaceHeroku/TemplateCRUD/target/classes started by mitaskq in /home/mitaskq/workspaceHeroku/TemplateCRUD)
+[INFO ] 2019-09-01 16:45:21.806 [main] AppStoreRelationships - No active profile set, falling back to default profiles: default
+[INFO ] 2019-09-01 16:45:30.501 [main] AppStoreRelationships - Started AppStoreRelationships in 9.85 seconds (JVM running for 21.358)
